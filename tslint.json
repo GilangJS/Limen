@@ -5,7 +5,7 @@
     "jsRules": {
         "semicolon": [true, "never"],
         "member-access": false,
-        "quotemark": [true, "single", "jsx-doubles"],
+        "quotemark": [true, "single", "jsx-double"],
         "trailing-comma": [ true, { "multiline": "never", "singleline": "never" }],
         "interface-name": [true, "never-prefix"],
         "no-implicit-dependencies": [true, "dev"]
@@ -13,7 +13,7 @@
     "rules": {
         "semicolon": [true, "never"],
         "member-access": false,
-        "quotemark": [true, "single", "jsx-doubles"],
+        "quotemark": [true, "single", "jsx-double"],
         "trailing-comma": [ true, { "multiline": "never", "singleline": "never" }],
         "interface-name": [true, "never-prefix"],
         "no-implicit-dependencies": [true, "dev"]
