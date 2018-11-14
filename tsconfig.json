@@ -12,9 +12,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "react",
+    "noImplicitAny": true,
+    "pretty": true,
+    "sourceMap": true
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "./node_modules/"
   ]
 }
