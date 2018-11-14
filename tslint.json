@@ -5,14 +5,14 @@
     "jsRules": {
         "semicolon": [true, "never"],
         "member-access": false,
-        "quotemark": [true, "single"],
+        "quotemark": [true, "single", "jsx-doubles"],
         "trailing-comma": [ true, { "multiline": "never", "singleline": "never" }],
         "interface-name": [true, "never-prefix"]
     },
     "rules": {
         "semicolon": [true, "never"],
         "member-access": false,
-        "quotemark": [true, "single"],
+        "quotemark": [true, "single", "jsx-doubles"],
         "trailing-comma": [ true, { "multiline": "never", "singleline": "never" }],
         "interface-name": [true, "never-prefix"]
     }
