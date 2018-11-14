@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import theme from '../../res/theme'
 
 interface Props {
-  fontSize: string
+  fontSize?: string
 }
 
 export const BaseButton = styled.button`
