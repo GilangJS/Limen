@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import theme from '../../res/theme'
+import theme from '../res/theme'
 
 interface Props {
   fontSize?: string
@@ -16,7 +16,7 @@ export const BaseButton = styled.button`
   }
 `
 BaseButton.defaultProps = {
-  fontSize: '14px'
+  fontSize: theme.fontSize.normal
 }
 
 export const BaseColoredButton = styled(BaseButton)`
