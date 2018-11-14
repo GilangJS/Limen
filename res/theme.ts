@@ -15,7 +15,8 @@ const palette = {
   accent: '#FCA311',
   accentDark: '#CF860E',
   accentLight: '#FCB33C',
-  grey: '#E5E5E5'
+  grey: '#E5E5E5',
+  white: '#fff'
 }
 
 const theme = {
