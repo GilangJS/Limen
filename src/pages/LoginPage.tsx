@@ -4,17 +4,12 @@ import styled from 'styled-components'
 import theme from '../res/theme'
 
 import { PrimaryButton } from '../components/Button'
-import { FlexColDiv } from '../components/Container'
+import { FlexColDiv, PageContainer } from '../components/Container'
 import { PrimaryTextField } from '../components/TextField'
 
 const UsernameField = PrimaryTextField
 const PasswordField = PrimaryTextField
 const LoginButton = PrimaryButton
-
-const PageContainer = styled(FlexColDiv)`
-  background-color: ${theme.palette.white};
-  height: 100vh;
-`
 
 const PageContent = styled(FlexColDiv)`
   width: 100%;

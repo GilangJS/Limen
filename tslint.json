@@ -8,7 +8,8 @@
         "quotemark": [true, "single", "jsx-double"],
         "trailing-comma": [ true, { "multiline": "never", "singleline": "never" }],
         "interface-name": [true, "never-prefix"],
-        "no-implicit-dependencies": [true, "dev"]
+        "no-implicit-dependencies": [true, "dev"],
+        "jsx-no-lambda": false
     },
     "rules": {
         "semicolon": [true, "never"],
@@ -16,6 +17,7 @@
         "quotemark": [true, "single", "jsx-double"],
         "trailing-comma": [ true, { "multiline": "never", "singleline": "never" }],
         "interface-name": [true, "never-prefix"],
-        "no-implicit-dependencies": [true, "dev"]
+        "no-implicit-dependencies": [true, "dev"],
+        "jsx-no-lambda": false
     }
 }

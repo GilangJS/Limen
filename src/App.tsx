@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { createGlobalStyle } from 'styled-components'
 
+import { LandingPage } from './pages/LandingPage'
 import { LoginPage } from './pages/LoginPage'
 
 const GlobalStyle = createGlobalStyle`
@@ -24,7 +26,12 @@ class App extends Component {
     return (
       <div className={'App'}>
         <GlobalStyle />
-        <LoginPage />
+        <BrowserRouter>
+          <Switch>
+            <Route exact={true} path={'/login'} render={() => <LoginPage/>}/>
+            <Route exact={true} path={'/'} render={() => <LandingPage />} />
+          </Switch>
+        </BrowserRouter>
       </div>
     )
   }

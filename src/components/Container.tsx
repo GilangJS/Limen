@@ -12,3 +12,7 @@ export const FlexColDiv = styled(FlexDiv)`
 export const FlexRowDiv = styled(FlexDiv)`
   flex-direction: row;
 `
+
+export const PageContainer = styled(FlexColDiv)`
+  height: 100vh;
+`

@@ -1,10 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import { PageContainer } from '../components/Container'
+import { Navbar } from '../components/Navbar'
 
-class LandingPage extends React.Component {
+export class LandingPage extends React.Component {
   render() {
     return (
-      <div />
+      <PageContainer>
+        <Navbar />
+      </PageContainer>
     )
   }
 }
