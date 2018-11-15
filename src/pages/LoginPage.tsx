@@ -13,7 +13,7 @@ const LoginButton = PrimaryButton
 
 const PageContainer = styled(FlexColDiv)`
   background-color: ${theme.palette.white};
-  height: 100%;
+  height: 100vh;
 `
 
 const PageContent = styled(FlexColDiv)`

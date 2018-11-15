@@ -5,5 +5,7 @@ import { LoginPage } from '../LoginPage'
 
 storiesOf('Pages', module)
   .add('LoginPage', () => (
-    <LoginPage />
+    <div style={{ height: '100%' }}>
+      <LoginPage />
+    </div>
   ))
